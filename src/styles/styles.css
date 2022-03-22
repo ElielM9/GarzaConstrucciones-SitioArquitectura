@@ -36,11 +36,11 @@ h1 {
 }
 
 h2 {
-    font-size: 5.5rem;
+    font-size: 5.8rem;
 }
 
 h3 {
-    font-size: 4.5rem;
+    font-size: 5.5rem;
 }
 
 p {
@@ -319,7 +319,7 @@ img {
 }
 
 .modelo__contenido {
-    padding: 2rem;
+    padding: 3.5rem;
     background-color: var(--blanco);
     overflow: hidden;
 }
