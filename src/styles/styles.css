@@ -176,20 +176,21 @@ img {
     }
 }
 
-.nav a {
+.nav__link {
     width: 100%;
     padding: .5rem;
+    font-size: 2rem;
     text-align: center;
     transition: background-color .3s;
 }
 
 @media(min-width: 768px) {
-    .nav a {
+    .nav__link {
         padding: 1rem 2rem;
     }
 }
 
-.nav a:hover {
+.nav__link:hover {
     background-color: rgb(255 255 255 / .5);
     color: var(--oscuro)
 }
