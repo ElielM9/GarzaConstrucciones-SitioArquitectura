@@ -98,15 +98,6 @@ img {
   }
 }
 
-/* UTILIDADES */
-.text-center {
-  text-align: center;
-}
-
-.mt-5 {
-  margin-top: 5rem;
-}
-
 /* HEADER */
 .header {
   min-height: 60rem;
@@ -390,10 +381,9 @@ img {
 }
 
 .galeria__img {
-    object-fit: cover;
-    height: 100%;
-  }
-  
+  object-fit: cover;
+  height: 100%;
+}
 
 /* FOOTER */
 
@@ -410,12 +400,11 @@ img {
   color: var(--blanco);
 }
 
-
-@media(min-width: 768px) {
-    .footer{
-        height: 35rem;
-    }
- }
+@media (min-width: 768px) {
+  .footer {
+    height: 35rem;
+  }
+}
 
 .footer__copy {
   padding: 2rem;
