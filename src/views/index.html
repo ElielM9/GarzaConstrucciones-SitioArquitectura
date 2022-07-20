@@ -15,10 +15,12 @@
   </head>
   <body>
     <header class="header" id="inicio">
-      <div class="container header__contenido">
-        <div class="barra">
+      <div class="header__contenido header__contenedor">
+        <div class="header__barra">
           <div class="logo">
-            <h1 class="logo__nombre">Garza<span>Construcciones</span></h1>
+            <h2 class="logo__nombre">
+              Garza<span class="logo__nombre--oscuro">Construcciones</span>
+            </h2>
           </div>
           <div class="contacto">
             <a class="contacto__tel" href="tel:01-800-0000-000"
@@ -34,75 +36,76 @@
           </div>
         </div>
         <div class="header__slogan">
-          <h1>Tu casa en el bosque</h1>
-          <p>Construímos la casa de tus sueños</p>
+          <h1 class="header__titulo">Tu casa en el bosque</h1>
+          <p class="header__sub">Construímos la casa de tus sueños</p>
         </div>
       </div>
     </header>
-    <section class="container mt-5 nosotros" id="nosotros">
+    <section class="nosotros nosotros__contenedor" id="nosotros">
       <div class="nosotros__contenido">
-        <h2>Sobre nosotros</h2>
-        <p>
+        <h2 class="nosotros__titulo">Sobre nosotros</h2>
+        <p class="nosotros__parrafo">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
           porro sint similique repellat quia natus magni voluptatum ipsa
           recusandae place
         </p>
-        <p>
+        <p class="nosotros__parrafo">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
           aut minima non nam est impedit.
         </p>
       </div>
     </section>
-    <main class="main container mt-5" id="modelos">
-      <h2>Conoce nuestros 3 modelos</h2>
+    <main class="main main__contenedor" id="modelos">
+      <h2 class="modelos__titulo">Conoce nuestros 3 modelos</h2>
       <div class="modelo modelo--basico">
         <div class="modelo__contenido">
-          <h3>Modelo Básico</h3>
-          <p>
+          <h3 class="modelo__titulo">Modelo Básico</h3>
+          <p class="modelo__parrafo">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse vitae
             omnis sit perferendis ipsa possimus, tenetur explicabo, at id dicta
             consequuntur maiores, dolore alias consequatur sunt quod quisquam
             voluptatum fugiat!
           </p>
-          <a href="#" class="btn">Más información</a>
+          <a href="#" class="modelo__btn">Más información</a>
         </div>
       </div>
       <!-- Modelo -->
       <div class="modelo modelo--premiere">
         <div class="modelo__contenido">
-          <h3>Modelo Premiere</h3>
-          <p>
+          <h3 class="modelo__titulo">Modelo Premiere</h3>
+          <p class="modelo__parrafo">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse vitae
             omnis sit perferendis ipsa possimus, tenetur explicabo, at id dicta
             consequuntur maiores, dolore alias consequatur sunt quod quisquam
             voluptatum fugiat!
           </p>
-          <a href="#" class="btn">Más información</a>
+          <a href="#" class="modelo__btn">Más información</a>
         </div>
       </div>
       <!-- Modelo -->
       <div class="modelo modelo--elite">
         <div class="modelo__contenido">
-          <h3>Modelo Elite</h3>
-          <p>
+          <h3 class="modelo__titulo">Modelo Elite</h3>
+          <p class="modelo__parrafo">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse vitae
             omnis sit perferendis ipsa possimus, tenetur explicabo, at id dicta
             consequuntur maiores, dolore alias consequatur sunt quod quisquam
             voluptatum fugiat!
           </p>
-          <a href="#" class="btn">Más información</a>
+          <a href="#" class="modelo__btn">Más información</a>
         </div>
       </div>
       <!-- Modelo -->
     </main>
-    <section class="container mt-5">
-      <h2>Galería</h2>
-      <div class="galeria" id="galeria">
+    <section class="galeria galeria__contenedor">
+      <h2 class="galeria__titulo">Galería</h2>
+      <div class="galeria__grid" id="galeria">
         <div class="galeria__imagen">
           <picture>
             <source srcset="./assets/img/imagen_1.avif" type="image/avif" />
             <source srcset="./assets/img/imagen_1.webp" type="image/webp" />
             <img
+              class="galeria__img"
               loading="lazy"
               width="500"
               height="300"
@@ -116,6 +119,7 @@
             <source srcset="./assets/img/imagen_2.avif" type="image/avif" />
             <source srcset="./assets/img/imagen_2.webp" type="image/webp" />
             <img
+              class="galeria__img"
               loading="lazy"
               width="500"
               height="300"
@@ -129,6 +133,7 @@
             <source srcset="./assets/img/imagen_3.avif" type="image/avif" />
             <source srcset="./assets/img/imagen_3.webp" type="image/webp" />
             <img
+              class="galeria__img"
               loading="lazy"
               width="500"
               height="300"
@@ -142,6 +147,7 @@
             <source srcset="./assets/img/imagen_4.avif" type="image/avif" />
             <source srcset="./assets/img/imagen_4.webp" type="image/webp" />
             <img
+              class="galeria__img"
               loading="lazy"
               width="500"
               height="300"
@@ -155,6 +161,7 @@
             <source srcset="./assets/img/imagen_5.avif" type="image/avif" />
             <source srcset="./assets/img/imagen_5.webp" type="image/webp" />
             <img
+              class="galeria__img"
               loading="lazy"
               width="500"
               height="300"
@@ -168,6 +175,7 @@
             <source srcset="./assets/img/imagen_6.avif" type="image/avif" />
             <source srcset="./assets/img/imagen_6.webp" type="image/webp" />
             <img
+              class="galeria__img"
               loading="lazy"
               width="500"
               height="300"
@@ -181,6 +189,7 @@
             <source srcset="./assets/img/imagen_7.avif" type="image/avif" />
             <source srcset="./assets/img/imagen_7.webp" type="image/webp" />
             <img
+              class="galeria__img"
               loading="lazy"
               width="500"
               height="300"
@@ -191,11 +200,13 @@
         </div>
       </div>
     </section>
-    <footer class="footer mt-5">
-      <div class="container" id="contacto">
-        <div class="barra">
+    <footer class="footer">
+      <div class="footer__contenedor" id="contacto">
+        <div class="footer__barra">
           <div class="logo">
-            <h1 class="logo__nombre">Garza<span>Construcciones</span></h1>
+            <h2 class="logo__nombre">
+              Garza<span class="logo__nombre--oscuro">Construcciones</span>
+            </h2>
           </div>
           <div class="contacto">
             <a class="contacto__tel" href="tel:01-800-0000-000"
@@ -211,7 +222,7 @@
           </div>
         </div>
       </div>
-      <p class="copy">Todos los derechos reservados &copy;</p>
+      <p class="footer__copy">Todos los derechos reservados &copy;</p>
     </footer>
   </body>
 </html>
